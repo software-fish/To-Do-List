@@ -12,6 +12,17 @@ body {
     text-align: center;
 }
 
+.to-do {
+    text-align: center;
+    border: 1px black solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    background: teal;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
 #to-do-input {
     display: grid;
     justify-content: center;
@@ -41,4 +52,18 @@ body {
 
 #time {
     width: 100px;
+}
+
+.complete {
+    background: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.complete:hover {
+    background: green;
+}
+
+.complete:active {
+    background: darkgreen
 }
