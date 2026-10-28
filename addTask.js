@@ -14,11 +14,13 @@ function addTask(title, task, time, toDoParent) {
     p_title.textContent = title
     p_task.textContent = task
     p_time.textContent = time
+    button.textContent = "Complete task"
 
     toDoParent.append(div)
     div.append(p_title)
     div.append(p_task)
     div.append(p_time)
+    div.append(button)
 }
 
 export { addTask }
