@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 153, 255, 0.2)
+}
+
+#heading {
+    text-align: center;
+}
+
+#to-do-input {
+    display: grid;
+    justify-content: center;
+}
+
+.input {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+#add-to-do {
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 120px;
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#add-to-do:hover {
+    background: blue;
+}
+
+#add-to-do:active {
+    background: darkblue;
+}
+
+#time {
+    width: 20%;
+}
