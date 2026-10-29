@@ -25,3 +25,9 @@ input.addEventListener('change', ({ target }) => {
 add.addEventListener('click', () => {
     addTask(todo.title, todo.task, todo.time, todos)
 })
+
+todos.addEventListener('click', ({ target }) => {
+    if (target.className !== 'complete') return;
+
+    target.parentElement.remove()
+})
