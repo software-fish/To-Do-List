@@ -12,6 +12,7 @@ function addTask(title, task, time, toDoParent) {
     button.className = "complete"
 
     p_title.textContent = title
+    p_title.style["font-weight"] = "bold"
     p_task.textContent = task
     p_time.textContent = time
     button.textContent = "Complete task"
